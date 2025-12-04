@@ -15,8 +15,9 @@ def main():
     triangle = Packals_triangle(int(level))
     for row in triangle:
 
-print(row)
+    print(row)
     
-    if __name__ == '__main__':
+if __name__ == '__main__':
     main()
+
 
