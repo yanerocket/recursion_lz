@@ -11,8 +11,9 @@ def permutations(elements):
             result.append([current] + p)
     return result
 
-def main()
-print(permutations([1, 2, 3]))
+def main():
+    print(permutations([1, 2, 3]))
 
 if __name__ == '__main__':
     main()
+
