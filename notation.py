@@ -9,12 +9,13 @@ def convert_to_base(n, base):
     else:
         return convert_to_base(n // base, base) + digits[n % base]
 
-def main()
+def main():
 
-print(convert_to_base(255, 16))
-print(convert_to_base(255, 2))
+    print(convert_to_base(255, 16))
+    print(convert_to_base(255, 2))
 
-print(convert_to_base(37, 9))
+    print(convert_to_base(37, 9))
 
 if __name__ == '__main__':
     main()
+
