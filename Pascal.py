@@ -10,12 +10,13 @@ def Packals_triangle(n):
         current_row += [1]
         result.append(current_row)
         return result
-def main()
-level = input("Введите уровень треугольника Паскаля ")
-triangle = Packals_triangle(int(level))
-for row in triangle:
+def main():
+    level = input("Введите уровень треугольника Паскаля ")
+    triangle = Packals_triangle(int(level))
+    for row in triangle:
 
-    print(row)
+print(row)
     
     if __name__ == '__main__':
     main()
+
